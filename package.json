@@ -1,0 +1,20 @@
+{
+  "name": "google-commander",
+  "productName": "Google Commander",
+  "version": "1.1.0",
+  "description": "Two-panel file manager in the style of Norton Commander for uploading files to Google Drive",
+  "main": "app/main.js",
+  "private": true,
+  "author": "Google Commander contributors",
+  "scripts": {
+    "start": "electron .",
+    "icon": "electron scripts/make-ico.cjs",
+    "package": "node scripts/package.mjs"
+  },
+  "devDependencies": {
+    "@electron/asar": "^3.4.1",
+    "@electron/fuses": "^1.8.0",
+    "electron": "44.3.0",
+    "rcedit": "^4.0.1"
+  }
+}
